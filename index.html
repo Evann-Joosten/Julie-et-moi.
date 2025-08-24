@@ -9,10 +9,15 @@
    	}
 
     h1 {
-   	   color: #3EB489;
        text-aling: center;
+      animation: colorChange 2s infinite;
    	}
-   		
+   	@keyframes colorChange {
+      0% { color: red }
+     25% { color: orange }
+     50% { color: blue }
+     75% { color: #3EB489}
+    100% { color: purple }
    	p {
    	  color: #FF00FF;
       text-align: center;
